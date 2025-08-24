@@ -1,14 +1,18 @@
-<nav class="p-4 bg-slate-500 rounded-md ">
-  <ul>
+<nav class="px-0 bg-primary rounded-2xl  py-8">
+  <ul class="flex items-center justify-between space-x-4">
     <li>
       <a href="#">
-        <img src="#" alt="">
+        <img src="#" alt="Cafe Dena Logo">
       </a>
     </li>
     <li>
       <form>
-        <div class="form-group">
-          <input type="text" name="search" id="search">
+        <div
+          class="form-group flex items-center gap-2 border-secondary border border-solid rounded-xl p-2 bg-transparent relative">
+          <input type="text" name="search" id="search" class="bg-transparent">
+          <button class="flex items-center">
+            <span class="icon-search text-secondary"></span>
+          </button>
         </div>
       </form>
     </li>

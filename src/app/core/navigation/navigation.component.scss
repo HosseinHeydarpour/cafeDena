@@ -1,5 +1,7 @@
 :host {
 	position: absolute;
 	top: 16px;
-	width: 100%;
+	width: 95%;
+	left: 50%;
+	transform: translateX(-50%);
 }

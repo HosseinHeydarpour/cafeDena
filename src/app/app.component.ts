@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavigationComponent } from './core/navigation/navigation.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+	selector: 'app-root',
+	standalone: true,
+	imports: [RouterOutlet, NavigationComponent, NavigationComponent],
+	templateUrl: './app.component.html',
+	styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'cafe-dena';
+	title = 'cafe-dena';
 }
